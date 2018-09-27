@@ -1,0 +1,16 @@
+PODS:
+  - StarPrinting (0.1.0)
+
+DEPENDENCIES:
+  - StarPrinting (from `../`)
+
+EXTERNAL SOURCES:
+  StarPrinting:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StarPrinting: 06f624b63475c7e31d9f29a33b536f3e5e2749f4
+
+PODFILE CHECKSUM: 0cbc66754ffd17470cdff166e7ac1e8d82147e78
+
+COCOAPODS: 1.5.3

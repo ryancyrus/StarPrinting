@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E6001CC380FECBE597B46EB59C77020 /* Pods-StarPrinting_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D2CA810ECF3A0AD0CCB4959DB681E3 /* Pods-StarPrinting_Tests-dummy.m */; };
+		4B3A892286E9E6C0E1180E784DA9EF53 /* Pods-StarPrinting_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0F5D5E549F382E27C8217D37895E02 /* Pods-StarPrinting_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A2A5FE8E17A00F31F006640C98FDBDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		822614AF9118B17806C3E673D9E238B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		92037612079B7C365FB882183A80F286 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DA4C6E41B9FC1409C4840CC36F2810 /* ReplaceMe.swift */; };
+		948CFAD7215D74D200491AD4 /* PrinterCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CFAD6215D74D200491AD4 /* PrinterCapability.swift */; };
+		948CFAD9215D754700491AD4 /* PrintCommandBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CFAD8215D754700491AD4 /* PrintCommandBuilder.swift */; };
+		948CFADB215D757300491AD4 /* PrinterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CFADA215D757300491AD4 /* PrinterService.swift */; };
+		948CFADD215D759500491AD4 /* PrinterSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CFADC215D759500491AD4 /* PrinterSetting.swift */; };
+		948CFADF215D75BB00491AD4 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CFADE215D75BB00491AD4 /* SettingsManager.swift */; };
+		948CFAE1215D760000491AD4 /* SearchBTPortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CFAE0215D760000491AD4 /* SearchBTPortVC.swift */; };
+		948CFAE3215D76A900491AD4 /* ReceiptData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CFAE2215D76A900491AD4 /* ReceiptData.swift */; };
+		B7472C0D80261F20138B747067523B3F /* Pods-StarPrinting_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B330AE318B7D80C8A712B82A2E4FF /* Pods-StarPrinting_Example-dummy.m */; };
+		BBAFE4048DF75F1D9F4C61941C848C7C /* StarPrinting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65088B7C470DCE010F8CCC7545B823AF /* StarPrinting-dummy.m */; };
+		E38C5450423DC614B78148A1399D7634 /* StarPrinting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C9F2F83053D01484D09AC35FB87A16 /* StarPrinting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB50A1271AA1FFC298473F7AE6ED125B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FE826D4B8AF37CC86BEF4EE3225E213F /* Pods-StarPrinting_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF348B827309F004E0AEA78F74895EED /* Pods-StarPrinting_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E25ABF482EA189C6A2B9AA1800E62CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A8191881B29666390244897FD95356;
+			remoteInfo = StarPrinting;
+		};
+		E8C339F6524DF7D2D49138880B59C230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095E557402E878931D5DBC7DC51AFC4F;
+			remoteInfo = "Pods-StarPrinting_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BA4561E3673B5D26762555A4FBE445 /* Pods-StarPrinting_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarPrinting_Example-frameworks.sh"; sourceTree = "<group>"; };
+		06169734E8024395664AF96CC6E5A1DB /* Pods-StarPrinting_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarPrinting_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A09D63BA1D36E26109C7FDC90726DA9 /* Pods-StarPrinting_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarPrinting_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A5FDE02B1620D5FD2B353C44A0372D7 /* StarPrinting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarPrinting.xcconfig; sourceTree = "<group>"; };
+		2287DF989AA934AF4B9739D6912F44EE /* Pods-StarPrinting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarPrinting_Tests.modulemap"; sourceTree = "<group>"; };
+		24E60A573ECFBAF44B6AF545AB7032AF /* Pods-StarPrinting_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarPrinting_Tests-resources.sh"; sourceTree = "<group>"; };
+		24F90F8F9E742FCCD0F37B6A743FFFE7 /* Pods-StarPrinting_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarPrinting_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		286691653C425BA22F8F6C1B5B7590AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		287B330AE318B7D80C8A712B82A2E4FF /* Pods-StarPrinting_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarPrinting_Example-dummy.m"; sourceTree = "<group>"; };
+		3452A81F653C2DB812C17F0BBDC49103 /* Pods_StarPrinting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarPrinting_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0F5D5E549F382E27C8217D37895E02 /* Pods-StarPrinting_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarPrinting_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4BF16E81DE2CB9871A97B5C63A44374D /* Pods_StarPrinting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarPrinting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		65014B41A00C86AC20ED5C6D9805AB21 /* Pods-StarPrinting_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarPrinting_Example.release.xcconfig"; sourceTree = "<group>"; };
+		65088B7C470DCE010F8CCC7545B823AF /* StarPrinting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StarPrinting-dummy.m"; sourceTree = "<group>"; };
+		699137B64B139530FC8189F728734733 /* StarPrinting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StarPrinting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9F4A29AE5A3D552CAEE56E1DF1947F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705DAB2D48F09D27449C1700A4E0F018 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7A5389F04F7B2206F46A240DE308320F /* Pods-StarPrinting_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarPrinting_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948CFAD6215D74D200491AD4 /* PrinterCapability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterCapability.swift; sourceTree = "<group>"; };
+		948CFAD8215D754700491AD4 /* PrintCommandBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintCommandBuilder.swift; sourceTree = "<group>"; };
+		948CFADA215D757300491AD4 /* PrinterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterService.swift; sourceTree = "<group>"; };
+		948CFADC215D759500491AD4 /* PrinterSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterSetting.swift; sourceTree = "<group>"; };
+		948CFADE215D75BB00491AD4 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		948CFAE0215D760000491AD4 /* SearchBTPortVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBTPortVC.swift; sourceTree = "<group>"; };
+		948CFAE2215D76A900491AD4 /* ReceiptData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptData.swift; sourceTree = "<group>"; };
+		94DEABE9D8F86C6D5D6246A78E72E042 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B08865F6DDF11D891381CD6D869841F /* Pods-StarPrinting_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarPrinting_Example-resources.sh"; sourceTree = "<group>"; };
+		A5C9F2F83053D01484D09AC35FB87A16 /* StarPrinting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarPrinting-umbrella.h"; sourceTree = "<group>"; };
+		A8DA4C6E41B9FC1409C4840CC36F2810 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = StarPrinting/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B5D0BC8A62227115E33694AA980B498C /* Pods-StarPrinting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarPrinting_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C07C96FA17637EB9A2C15E10B1AC39D4 /* StarPrinting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = StarPrinting.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3319F1387BF4279AE1177BD19CC6D1E /* StarPrinting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarPrinting-prefix.pch"; sourceTree = "<group>"; };
+		C67FF644D3B039EEB7AA32F107242076 /* StarPrinting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StarPrinting.modulemap; sourceTree = "<group>"; };
+		C6D2CA810ECF3A0AD0CCB4959DB681E3 /* Pods-StarPrinting_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarPrinting_Tests-dummy.m"; sourceTree = "<group>"; };
+		D5E91A561CB2E58187FB6FCFFB4F5F71 /* Pods-StarPrinting_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarPrinting_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC0B4CEBA4225B401E644E5B400AB708 /* Pods-StarPrinting_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarPrinting_Example.modulemap"; sourceTree = "<group>"; };
+		DE25AA29FD5AC5E2C84B09A4CD43600D /* Pods-StarPrinting_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarPrinting_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EA3C52E6BFF8CAF249379E7F2128C528 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE00B7ABB9B9F02CFD0E7341D0F24AD7 /* Pods-StarPrinting_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarPrinting_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF348B827309F004E0AEA78F74895EED /* Pods-StarPrinting_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarPrinting_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C5FCC8107FF99BAC92E2D91E4FDD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2A5FE8E17A00F31F006640C98FDBDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5352A5C73B2E18F8CF455C1BE46698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822614AF9118B17806C3E673D9E238B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0876EC5156C1774EDBD28B02D4B3EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB50A1271AA1FFC298473F7AE6ED125B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FE14559DE3906143737EEA57AC5B92 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				705DAB2D48F09D27449C1700A4E0F018 /* LICENSE */,
+				286691653C425BA22F8F6C1B5B7590AE /* README.md */,
+				C07C96FA17637EB9A2C15E10B1AC39D4 /* StarPrinting.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B822CED6538B0C85F1D8E139E929B7C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7ABBC4DF0830F34436547B6D7D63333 /* Pods-StarPrinting_Example */,
+				9A7B97DEEBBFD083B8E448BE391F14C0 /* Pods-StarPrinting_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BCB34CDFE9C22DAA1467765185AFB653 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D05C5A7087AFD2656FFF323E1D22BCC7 /* Products */,
+				7B822CED6538B0C85F1D8E139E929B7C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		948CFAE4215D778C00491AD4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				948CFAD6215D74D200491AD4 /* PrinterCapability.swift */,
+				948CFAD8215D754700491AD4 /* PrintCommandBuilder.swift */,
+				948CFADE215D75BB00491AD4 /* SettingsManager.swift */,
+				948CFAE0215D760000491AD4 /* SearchBTPortVC.swift */,
+				948CFAE2215D76A900491AD4 /* ReceiptData.swift */,
+				948CFADA215D757300491AD4 /* PrinterService.swift */,
+				948CFADC215D759500491AD4 /* PrinterSetting.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9A7B97DEEBBFD083B8E448BE391F14C0 /* Pods-StarPrinting_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94DEABE9D8F86C6D5D6246A78E72E042 /* Info.plist */,
+				2287DF989AA934AF4B9739D6912F44EE /* Pods-StarPrinting_Tests.modulemap */,
+				0A09D63BA1D36E26109C7FDC90726DA9 /* Pods-StarPrinting_Tests-acknowledgements.markdown */,
+				D5E91A561CB2E58187FB6FCFFB4F5F71 /* Pods-StarPrinting_Tests-acknowledgements.plist */,
+				C6D2CA810ECF3A0AD0CCB4959DB681E3 /* Pods-StarPrinting_Tests-dummy.m */,
+				DE25AA29FD5AC5E2C84B09A4CD43600D /* Pods-StarPrinting_Tests-frameworks.sh */,
+				24E60A573ECFBAF44B6AF545AB7032AF /* Pods-StarPrinting_Tests-resources.sh */,
+				3F0F5D5E549F382E27C8217D37895E02 /* Pods-StarPrinting_Tests-umbrella.h */,
+				06169734E8024395664AF96CC6E5A1DB /* Pods-StarPrinting_Tests.debug.xcconfig */,
+				B5D0BC8A62227115E33694AA980B498C /* Pods-StarPrinting_Tests.release.xcconfig */,
+			);
+			name = "Pods-StarPrinting_Tests";
+			path = "Target Support Files/Pods-StarPrinting_Tests";
+			sourceTree = "<group>";
+		};
+		AC930E4F51848F50AD993CF9A139BFFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B9F4A29AE5A3D552CAEE56E1DF1947F /* Info.plist */,
+				C67FF644D3B039EEB7AA32F107242076 /* StarPrinting.modulemap */,
+				0A5FDE02B1620D5FD2B353C44A0372D7 /* StarPrinting.xcconfig */,
+				65088B7C470DCE010F8CCC7545B823AF /* StarPrinting-dummy.m */,
+				C3319F1387BF4279AE1177BD19CC6D1E /* StarPrinting-prefix.pch */,
+				A5C9F2F83053D01484D09AC35FB87A16 /* StarPrinting-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StarPrinting";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCB34CDFE9C22DAA1467765185AFB653 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9B5A9D0C357AEE3BBAAF42691B3DB99 /* StarPrinting */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C9B5A9D0C357AEE3BBAAF42691B3DB99 /* StarPrinting */ = {
+			isa = PBXGroup;
+			children = (
+				A8DA4C6E41B9FC1409C4840CC36F2810 /* ReplaceMe.swift */,
+				948CFAE4215D778C00491AD4 /* Classes */,
+				08FE14559DE3906143737EEA57AC5B92 /* Pod */,
+				AC930E4F51848F50AD993CF9A139BFFC /* Support Files */,
+			);
+			name = StarPrinting;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D05C5A7087AFD2656FFF323E1D22BCC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3452A81F653C2DB812C17F0BBDC49103 /* Pods_StarPrinting_Example.framework */,
+				4BF16E81DE2CB9871A97B5C63A44374D /* Pods_StarPrinting_Tests.framework */,
+				699137B64B139530FC8189F728734733 /* StarPrinting.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7ABBC4DF0830F34436547B6D7D63333 /* Pods-StarPrinting_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C52E6BFF8CAF249379E7F2128C528 /* Info.plist */,
+				DC0B4CEBA4225B401E644E5B400AB708 /* Pods-StarPrinting_Example.modulemap */,
+				FE00B7ABB9B9F02CFD0E7341D0F24AD7 /* Pods-StarPrinting_Example-acknowledgements.markdown */,
+				24F90F8F9E742FCCD0F37B6A743FFFE7 /* Pods-StarPrinting_Example-acknowledgements.plist */,
+				287B330AE318B7D80C8A712B82A2E4FF /* Pods-StarPrinting_Example-dummy.m */,
+				04BA4561E3673B5D26762555A4FBE445 /* Pods-StarPrinting_Example-frameworks.sh */,
+				9B08865F6DDF11D891381CD6D869841F /* Pods-StarPrinting_Example-resources.sh */,
+				FF348B827309F004E0AEA78F74895EED /* Pods-StarPrinting_Example-umbrella.h */,
+				7A5389F04F7B2206F46A240DE308320F /* Pods-StarPrinting_Example.debug.xcconfig */,
+				65014B41A00C86AC20ED5C6D9805AB21 /* Pods-StarPrinting_Example.release.xcconfig */,
+			);
+			name = "Pods-StarPrinting_Example";
+			path = "Target Support Files/Pods-StarPrinting_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DB94C09CBFE0DE575D4D72F228A46BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3A892286E9E6C0E1180E784DA9EF53 /* Pods-StarPrinting_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A72D2C6BCB0DF58A45E5DCE07A5697 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38C5450423DC614B78148A1399D7634 /* StarPrinting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5F781FC447DD5A0DF0B6729E38E898 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE826D4B8AF37CC86BEF4EE3225E213F /* Pods-StarPrinting_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		095E557402E878931D5DBC7DC51AFC4F /* Pods-StarPrinting_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A0E0241F19B80335D7B722B93BA497 /* Build configuration list for PBXNativeTarget "Pods-StarPrinting_Example" */;
+			buildPhases = (
+				EB5F781FC447DD5A0DF0B6729E38E898 /* Headers */,
+				B37F0F467537FF14EE840FD11479BD44 /* Sources */,
+				49C5FCC8107FF99BAC92E2D91E4FDD66 /* Frameworks */,
+				9D36DC34A3CB5030BC083FB4C61B5219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5345983DDA7CCE820B3ECC21DF49E438 /* PBXTargetDependency */,
+			);
+			name = "Pods-StarPrinting_Example";
+			productName = "Pods-StarPrinting_Example";
+			productReference = 3452A81F653C2DB812C17F0BBDC49103 /* Pods_StarPrinting_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A9AA8205B5B7CCC029B47718ED62EB7 /* Pods-StarPrinting_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E214EB3698B7EF324C66533DDD8EC47C /* Build configuration list for PBXNativeTarget "Pods-StarPrinting_Tests" */;
+			buildPhases = (
+				3DB94C09CBFE0DE575D4D72F228A46BD /* Headers */,
+				8FBFE52E364BA11D6584B9C253DC46CD /* Sources */,
+				4F5352A5C73B2E18F8CF455C1BE46698 /* Frameworks */,
+				591969EA58284259BA56351F54076AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD727FB93D63B011B926BA1096EDBBE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-StarPrinting_Tests";
+			productName = "Pods-StarPrinting_Tests";
+			productReference = 4BF16E81DE2CB9871A97B5C63A44374D /* Pods_StarPrinting_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2A8191881B29666390244897FD95356 /* StarPrinting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4078CB3B7DC984BFABB1D97492AC2DBE /* Build configuration list for PBXNativeTarget "StarPrinting" */;
+			buildPhases = (
+				B4A72D2C6BCB0DF58A45E5DCE07A5697 /* Headers */,
+				41785247C23C2DDDD9569E1D7C255568 /* Sources */,
+				B0876EC5156C1774EDBD28B02D4B3EA1 /* Frameworks */,
+				B7AF50DC98CB4E7986059229B72F8A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarPrinting;
+			productName = StarPrinting;
+			productReference = 699137B64B139530FC8189F728734733 /* StarPrinting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					095E557402E878931D5DBC7DC51AFC4F = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D05C5A7087AFD2656FFF323E1D22BCC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095E557402E878931D5DBC7DC51AFC4F /* Pods-StarPrinting_Example */,
+				9A9AA8205B5B7CCC029B47718ED62EB7 /* Pods-StarPrinting_Tests */,
+				B2A8191881B29666390244897FD95356 /* StarPrinting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		591969EA58284259BA56351F54076AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D36DC34A3CB5030BC083FB4C61B5219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7AF50DC98CB4E7986059229B72F8A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41785247C23C2DDDD9569E1D7C255568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92037612079B7C365FB882183A80F286 /* ReplaceMe.swift in Sources */,
+				BBAFE4048DF75F1D9F4C61941C848C7C /* StarPrinting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBFE52E364BA11D6584B9C253DC46CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6001CC380FECBE597B46EB59C77020 /* Pods-StarPrinting_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37F0F467537FF14EE840FD11479BD44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948CFADB215D757300491AD4 /* PrinterService.swift in Sources */,
+				948CFADD215D759500491AD4 /* PrinterSetting.swift in Sources */,
+				948CFAE3215D76A900491AD4 /* ReceiptData.swift in Sources */,
+				948CFADF215D75BB00491AD4 /* SettingsManager.swift in Sources */,
+				948CFAE1215D760000491AD4 /* SearchBTPortVC.swift in Sources */,
+				948CFAD9215D754700491AD4 /* PrintCommandBuilder.swift in Sources */,
+				948CFAD7215D74D200491AD4 /* PrinterCapability.swift in Sources */,
+				B7472C0D80261F20138B747067523B3F /* Pods-StarPrinting_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5345983DDA7CCE820B3ECC21DF49E438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StarPrinting;
+			target = B2A8191881B29666390244897FD95356 /* StarPrinting */;
+			targetProxy = E25ABF482EA189C6A2B9AA1800E62CBF /* PBXContainerItemProxy */;
+		};
+		DD727FB93D63B011B926BA1096EDBBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-StarPrinting_Example";
+			target = 095E557402E878931D5DBC7DC51AFC4F /* Pods-StarPrinting_Example */;
+			targetProxy = E8C339F6524DF7D2D49138880B59C230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		100DECA054D331BE1A3255FEE6284984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65014B41A00C86AC20ED5C6D9805AB21 /* Pods-StarPrinting_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarPrinting_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarPrinting_Example/Pods-StarPrinting_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B5297772C71434759DC7776CD062C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D0BC8A62227115E33694AA980B498C /* Pods-StarPrinting_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarPrinting_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarPrinting_Tests/Pods-StarPrinting_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8D12A11D4B9FD7F61AD60C8F0DE327BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5FDE02B1620D5FD2B353C44A0372D7 /* StarPrinting.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StarPrinting/StarPrinting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StarPrinting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StarPrinting/StarPrinting.modulemap";
+				PRODUCT_MODULE_NAME = StarPrinting;
+				PRODUCT_NAME = StarPrinting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B19E6B3FBFCF65EC67B08C491B4D2343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06169734E8024395664AF96CC6E5A1DB /* Pods-StarPrinting_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarPrinting_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarPrinting_Tests/Pods-StarPrinting_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FA67AEC6AE5E708EB4C74A3446EFB267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5389F04F7B2206F46A240DE308320F /* Pods-StarPrinting_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarPrinting_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarPrinting_Example/Pods-StarPrinting_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE5BEFE9CAFE8893216BDED36CA02579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5FDE02B1620D5FD2B353C44A0372D7 /* StarPrinting.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StarPrinting/StarPrinting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StarPrinting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StarPrinting/StarPrinting.modulemap";
+				PRODUCT_MODULE_NAME = StarPrinting;
+				PRODUCT_NAME = StarPrinting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4078CB3B7DC984BFABB1D97492AC2DBE /* Build configuration list for PBXNativeTarget "StarPrinting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D12A11D4B9FD7F61AD60C8F0DE327BD /* Debug */,
+				FE5BEFE9CAFE8893216BDED36CA02579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A0E0241F19B80335D7B722B93BA497 /* Build configuration list for PBXNativeTarget "Pods-StarPrinting_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA67AEC6AE5E708EB4C74A3446EFB267 /* Debug */,
+				100DECA054D331BE1A3255FEE6284984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E214EB3698B7EF324C66533DDD8EC47C /* Build configuration list for PBXNativeTarget "Pods-StarPrinting_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19E6B3FBFCF65EC67B08C491B4D2343 /* Debug */,
+				4B5297772C71434759DC7776CD062C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

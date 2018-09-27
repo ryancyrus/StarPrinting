@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'StarPrinting_Example' do
+  pod 'StarPrinting', :path => '../'
+
+  target 'StarPrinting_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

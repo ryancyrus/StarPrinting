@@ -1,0 +1,22 @@
+{
+  "name": "StarPrinting",
+  "version": "0.1.0",
+  "summary": "A short description of StarPrinting.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Shubhanshu/StarPrinting",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Shubhanshu": "shubh.aarsay@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Shubhanshu/StarPrinting.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "StarPrinting/Classes/**/*"
+}
